@@ -17,7 +17,7 @@ const generateQA = () => {
     getRandomNumber(3, 6),
     getRandomNumber(6, 10),
   );
-  const hiding = getRandomNumber(3, 5);
+  const hiding = getRandomNumber(1, 10);
   const answer = progression[hiding].toString();
   progression[hiding] = '..';
   const question = progression.join(' ');
