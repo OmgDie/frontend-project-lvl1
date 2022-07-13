@@ -17,6 +17,6 @@ const generateQA = () => {
   const answer = calcGCD(x, y).toString();
   return [question, answer];
 };
-const brainGCD = () => rules(description, generateQA);
+const gameGCD = () => rules(description, generateQA);
 
-export default brainGCD;
+export default gameGCD;
