@@ -22,9 +22,9 @@ const calculating = (firstNum, op, secondNum) => {
 const description = 'What is the result of the expression?';
 const ops = ['+', '-', '*'];
 const generateQA = () => {
-  const firstNum = getRandomNumber(20);
-  const secondNum = getRandomNumber(10);
-  const op = ops[getRandomNumber(3)];
+  const firstNum = getRandomNumber(10, 15);
+  const secondNum = getRandomNumber(2, 10);
+  const op = ops[getRandomNumber(0, 3)];
   const question = `${firstNum} ${op} ${secondNum}`;
   const answer = calculating(firstNum, op, secondNum).toString();
   return [question, answer];

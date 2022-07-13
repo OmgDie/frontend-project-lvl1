@@ -11,8 +11,8 @@ const calcGCD = (x, y) => {
 
 const description = 'Find the greatest common divisor of given numbers.';
 const generateQA = () => {
-  const x = getRandomNumber(100);
-  const y = getRandomNumber(75);
+  const x = getRandomNumber(1, 75);
+  const y = getRandomNumber(1, 50);
   const question = `${x} ${y}`;
   const answer = calcGCD(x, y).toString();
   return [question, answer];
