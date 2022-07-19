@@ -6,4 +6,8 @@ The project contains 5 simple games. To start, you must use the command
 ```
 $ make install
 ```
+To run the ESlint, use the command
+```
+$ make lint
+```
 <a href="https://asciinema.org/a/508362" target="_blank"><img src="https://asciinema.org/a/508362.svg" /></a>
