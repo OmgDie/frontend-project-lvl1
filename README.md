@@ -10,4 +10,12 @@ To run the ESlint, use the command
 ```
 $ make lint
 ```
+# List of games and commands to run them:
+1. **brain-game** - Greetings
+2. **brain-calc** - Calculator with simple operations
+3. **brain-gcd** - Finding the Greatest Common Divisor
+4. **brain-progression** - Fill in the missing number in progression
+5. **brain-prime** - Checking if a number is prime
+6. **brain-even** - Checking if a number is even
+
 <a href="https://asciinema.org/a/508362" target="_blank"><img src="https://asciinema.org/a/508362.svg" /></a>
